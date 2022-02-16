@@ -1,0 +1,90 @@
+canvas {
+	border:2px solid blue;
+	background:#c5d5d3fc;
+	display: block;
+	margin: 10px auto;
+}
+body{
+	margin: 10px auto;
+	/*padding: 10px;*/
+}
+.details{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+.details div{
+	padding: 20px;
+	margin: 20px;
+}
+.details div h2{
+
+}
+.details div span{
+	padding: 20px 20px 0 20px;
+	margin: 20px 20px 0 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+}
+.correct{
+	color: green;
+}
+.incorrect{
+	color: red;
+}
+.game{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	
+}
+.game .show{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.game .show .about{
+	font-size: 30px;
+}
+.game .control form div:not(.buttons){
+	margin: 20px;
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	width: 400px;
+	height: 50px;
+	border-radius: 5px;
+	color: black;
+	background-color: #eee;
+}
+.game .control form div input{
+	font-size: 25px;
+	font-weight: bolder;
+	
+}
+.buttons{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	
+}
+.buttons button{
+	
+	width: 180px;
+	height: 40px;
+	border-radius: 5px;
+	color: white;
+	background-color: green;
+}

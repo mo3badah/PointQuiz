@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport"
+	      content = "width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv = "X-UA-Compatible"
+	      content = "ie=edge">
+	<title>Point Quiz</title>
+	<link rel = "stylesheet"
+	      href = "main.css">
+</head>
+<body>
+<div class="details">
+	<div class="all">
+		<h2>جميع المحاولات</h2>
+		<span>0</span>
+	</div>
+	<div class="correct">
+		<h2> المحاولات الصحيحة</h2>
+		<span>0</span>
+	</div>
+	<div class="incorrect">
+		<h2>المحاولات الخاطئة</h2>
+		<span>0</span>
+	</div>
+</div>
+<div class="game">
+	<div class="show">
+		<div class="about">من فضلك اختار النقطة الصحيحة علي خط الأعداد</div>
+		<canvas id="mycanvas" width="400"  height="400"> </canvas>
+	</div>
+	<div class="control">
+		<form action = ""
+		      class = "choice">
+			<div>
+				<input type = "radio"
+				       name = "choice"
+				       id = "one">
+				<label for = "one">(3,4)</label>
+			</div>
+			<div>
+				<input type = "radio"
+				       name = "choice"
+				       id = "two">
+				<label for = "two">(3,-1)</label>
+			</div>
+			<div>
+				<input type = "radio"
+				       name = "choice"
+				       id = "three">
+				<label for = "three">(-5,3)</label>
+			</div>
+			<div class="buttons">
+				<button type = "submit"> تحقق </button>
+				<button type = "reset">ازالة</button>
+			</div>
+
+
+		</form>
+	</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
